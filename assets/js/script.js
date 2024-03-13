@@ -21,23 +21,23 @@ for(let i = 0; i < numeroJuagadas; i++) {
     let opcionMaquina = jugadas[indiceMaquina]
 
     if(opcionMaquina) {
-        alert(`La maquina elige ${opcionMaquina}`)
+        alert(`La maquina eligio ${opcionMaquina}`)
     }
 
 /* Evaluar la seleccion del user vs la maquina  */
 
     if(jugadaUser === opcionMaquina) {
-        alert(`Empate - La maquina elige ${opcionMaquina} y tu elegiste ${jugadaUser}`)
+        alert(`Empate - La maquina eligio ${opcionMaquina} y tu elegiste ${jugadaUser}`)
     } else if (
         (jugadaUser === 'piedra' && opcionMaquina === 'tijera') ||
         (jugadaUser === 'papel' && opcionMaquina === 'piedra') ||
         (jugadaUser === 'tijera' && opcionMaquina === 'papel')
     ){
         puntajeUser +=1;
-        alert(`Ganaste - La maquina elige ${opcionMaquina} y tu elegiste ${jugadaUser}`)
+        alert(`Ganaste - La maquina eligio ${opcionMaquina} y tu elegiste ${jugadaUser}`)
     } else {
         puntajeMaquina +=1;
-        alert(`Perdiste - La maquina elige ${opcionMaquina} y tu elegiste ${jugadaUser}`)
+        alert(`Perdiste - La maquina eligio ${opcionMaquina} y tu elegiste ${jugadaUser}`)
     }
 }
 
