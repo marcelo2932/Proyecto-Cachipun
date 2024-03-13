@@ -4,7 +4,7 @@ let puntajeUser=0;
 let puntajeMaquina =0;
 
 
-let numeroJuagadas = parseInt(prompt('Cuantas veces deseas jugar en este torneo?'))
+let numeroJuagadas = parseInt(prompt('Cuantas veces deseas jugar en este Desafio?'))
 
 /* Solicitar al user su jugada, esta operacion se realizara en cada juego {piedra, papel, tijera}*/
 
@@ -46,9 +46,9 @@ for(let i = 0; i < numeroJuagadas; i++) {
 if(puntajeUser === puntajeMaquina) {
     alert('Empate')
 }else if(puntajeUser > puntajeMaquina){
-    alert(`Ganaste el Torneo puntajes: Jugador ${puntajeUser} - Maquina ${puntajeMaquina}`)
+    alert(`Ganaste el Desafio puntajes: Jugador ${puntajeUser} - Maquina ${puntajeMaquina}`)
 }else {
-    alert(`Perdiste el Torneo puntajes: Jugador ${puntajeUser} - Maquina ${puntajeMaquina}`)
+    alert(`Perdiste el Desafio puntajes: Jugador ${puntajeUser} - Maquina ${puntajeMaquina}`)
 }
 
 
