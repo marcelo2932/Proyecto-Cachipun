@@ -44,11 +44,11 @@ for(let i = 0; i < numeroJuagadas; i++) {
 /* Indicar el resultado de la partida dependiendo del caso */
 
 if(puntajeUser === puntajeMaquina) {
-    alert('Empate')
+    alert(`'¡¡¡¡Empate!!!!!' Jugador ${puntajeUser} - Maquina ${puntajeMaquina}`)
 }else if(puntajeUser > puntajeMaquina){
-    alert(`Ganaste el Desafio puntajes: Jugador ${puntajeUser} - Maquina ${puntajeMaquina}`)
+    alert(`Ganaste!!!!! el Desafio Quedo con los siguientes puntajes: Jugador ${puntajeUser} - Maquina ${puntajeMaquina}`)
 }else {
-    alert(`Perdiste el Desafio puntajes: Jugador ${puntajeUser} - Maquina ${puntajeMaquina}`)
+    alert(`""Perdiste""; el Desafio Quedo con los siguientes puntajes: Jugador ${puntajeUser} - Maquina ${puntajeMaquina}`)
 }
 
 
